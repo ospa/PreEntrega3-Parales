@@ -1,0 +1,29 @@
+# Dependencias instaladas con npm
+node_modules
+
+# Directorios generados automáticamente
+dist
+.pnp
+.pnp.js
+npm-debug.log
+yarn-error.log
+.env
+
+# Dependencias instaladas con yarn
+.yarn
+
+# Archivos generados automáticamente
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Dependencias instaladas por npm
+node_modules
+npm-debug.log
+.npm
+
+# Dependencias instaladas por yarn
+yarn-error.log
+.pnp
+.pnp.js
+.yarn-integrity
