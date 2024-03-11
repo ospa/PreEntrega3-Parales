@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* Diseño segmento de Cuerpo General */
+body {
+  background-color: #31311b;
+  color: #ededde;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.button-color-propio {
+  background-color: purple !important;
+}
+.button-color-propio:hover {
+  background-color: green !important;
+  font-weight: 800;
+}
+
+.cajita img:hover {
+  box-shadow: 20px 20px 4px 10px black;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0.1ms;
+  transform: scale(1.2);
+}
+
+/* Diseño segmento de Navegacion */
+.navegacion, .navegacionAux, .navegacionPrincipal {
+  margin: 2rem auto;
+  list-style-type: none;
+  text-align: center;
+  font-size: 0;
+}
+
+.navegacionPrincipal {
+  width: 80%;
+}
+.navegacionPrincipal ul li {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  background: #021b12;
+}
+.navegacionPrincipal ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #b3abab;
+}
+
+.navegacionAux {
+  width: 50%;
+}
+.navegacionAux li {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  background: #151616;
+}
+.navegacionAux li a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #b3abab;
+}
+
+/* Diseño segmento de fondo*/
+.portada {
+  resize: both;
+  overflow: auto;
+  background-color: cadetblue;
+  height: 150px;
+  background-image: url("../img/salon2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Diseño segmento de PiePagina */
+.footer .redes {
+  text-align: center;
+}
+
+.footer .redes a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

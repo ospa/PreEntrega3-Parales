@@ -1,0 +1,40 @@
+@mixin flex_button ($color: blue,$hover-background: green//if($color == $color-contrast-light, shade-color($background, $btn-hover-bg-shade-amount), tint-color($background, $btn-hover-bg-tint-amount)),
+)
+{
+    background-color : $color!important;
+    &:hover{
+        background-color : $hover-background!important;
+        @if $hover-background == green {
+            //transform : translateY(-5px);
+            font-weight: 800;
+        }
+     }  
+}
+
+.button-color-propio
+{
+    @include flex_button(purple, green);
+
+
+}
+
+
+@mixin flex_caja {
+    &:hover{
+        box-shadow: 20px 20px 4px 10px black;
+        transition-duration: 1s;
+       // transition-property: t;
+        transition-timing-function:ease  ;
+        transition-delay: 0.1ms ;
+        transform: scale(1.2);
+    }
+}
+.cajita img
+{
+    //text-shadow: darken($color: #000000, $amount: 0)!important;
+    
+    @include flex_caja();
+
+    
+
+}

@@ -1,0 +1,25 @@
+body {
+    background-color: #31311b;
+    color: #ededde;
+  }
+
+    
+  h2 {
+    font-family: "Roboto", sans-serif;
+  
+    font-style: normal;
+  
+    text-decoration: none;
+  
+    text-align: justify;
+  
+    font-weight: 400;
+  
+    font-size: 3rem;
+    
+  }
+
+  //mixin
+  @mixin flex_width ($width){
+      width : $width;
+  }
